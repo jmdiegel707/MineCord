@@ -1,12 +1,12 @@
 ## MineCord for Spigot
 
-MineCord is a plugin that integrates data directly from your Minecraft server to a [specified channel](https://github.com/SleepyHead707/MineCord/blob/327ff57bdb598771351518046b9684262d541620/ConfigHelp.md) in your Discord server.  
-It also has more advanced functionality for use with [WebSockets](https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is), [confugurable in `config.yml` of the plugin's folder](https://github.com/SleepyHead707/MineCord/blob/327ff57bdb598771351518046b9684262d541620/ConfigHelp.md).
+MineCord is a plugin that integrates data directly from your Minecraft server to a [specified channel](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md) in your Discord server.  
+It also has more advanced functionality for use with [WebSockets](https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is), [confugurable in `config.yml` of the plugin's folder](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md).
 
 ___
 
 ### Discord Commands:
-MineCord uses Discord's "Bot" feature to send stuff to your Discord Server. If you don't know how to set up a Bot, you can use [**This tutorial**](https://www.youtube.com/watch?v=nW8c7vT6Hl4) to set up a Bot. Don't create any commands, just set up the token. [Drop the token in `config.yml`](https://github.com/SleepyHead707/MineCord/blob/327ff57bdb598771351518046b9684262d541620/ConfigHelp.md).  
+MineCord uses Discord's "Bot" feature to send stuff to your Discord Server. If you don't know how to set up a Bot, you can use [**This tutorial**](https://www.youtube.com/watch?v=nW8c7vT6Hl4) to set up a Bot. Don't create any commands, just set up the token. [Drop the token in `config.yml`](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md).  
 All commands are integrated slash commands.
 
 - Announce
@@ -23,7 +23,7 @@ All commands are integrated slash commands.
 
 - Get
   - `/get [Player]`
-  - Prints an embed to the [Specified Channel](https://github.com/SleepyHead707/MineCord/blob/327ff57bdb598771351518046b9684262d541620/ConfigHelp.md) with details of the chosen player, if that player is online.
+  - Prints an embed to the [Specified Channel](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md) with details of the chosen player, if that player is online.
 
 ___
 
@@ -32,7 +32,7 @@ MineCord also has some Minecraft commands.
 
 - Announce
   - `/announce "[Messsage]"`
-  - Sends a basic embed to the [Specified Discord Channel](https://github.com/SleepyHead707/MineCord/blob/327ff57bdb598771351518046b9684262d541620/ConfigHelp.md).
+  - Sends a basic embed to the [Specified Discord Channel](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md).
 
 - Get
   - `/get [Player]`
