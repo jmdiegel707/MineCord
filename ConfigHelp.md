@@ -1,4 +1,4 @@
-#### This page is for troubleshooting the config file (`config.yml`) at `{Server Folder}/plugins/MineCord/config.yml`
+### This page is for troubleshooting the config file (`config.yml`) at `{Server Folder}/plugins/MineCord/config.yml`
 
 This will run through every object in the file in finer detail than the provided descriptions
 
