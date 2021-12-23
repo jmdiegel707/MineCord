@@ -10,7 +10,7 @@ Bot Stuff
   - String
   - The token for your Discord Bot-Client. Will be the client that the plugin runs through.
 
-- Channel:
+- ##### Channel:
   - Float
   - The ID of the channel that all messages from the plugin will be sent to.
 
@@ -44,7 +44,7 @@ Discord Message Returns
 
 ___
 
-Websocket Config
+##### Websocket Config
 
 - Port
   - Integer
