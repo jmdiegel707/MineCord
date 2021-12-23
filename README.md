@@ -37,3 +37,11 @@ MineCord also has some Minecraft commands.
 - Get
   - `/get [Player]`
   - Get same as the Discord `get` commands, but sends details of desired player to the user who ran it in-game.
+
+___
+
+##### For help with `config.yml`,
+head to [the Config Help Page](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md).
+
+##### The reference for websocket data
+[Go here](https://github.com/SleepyHead707/MineCord/blob/main/Websocket.md)
