@@ -50,7 +50,7 @@ ___
   - Integer
   - The port the websocket is running on.
 
-- Intervals
+- ##### Intervals
   - Integer
   - The intervals between sending non-event based data.
 
