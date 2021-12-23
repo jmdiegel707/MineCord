@@ -66,6 +66,10 @@ ___
   - Boolean
   - Sends the coords and dementions of online players.
 
+- OnJoinLeave
+  - Boolean
+  - Sends to the websocket when a player joins or leaves.
+
 - BlockUpdate:
   - Boolean
   - Sends to the websocket when a block is placed, broken, or updated.
