@@ -34,9 +34,28 @@ See the [Config File (`config.yml`)](https://github.com/SleepyHead707/MineCord/b
 
 **Players Leave or Join**
 Socket Type: `OnJoinLeave`
-- Ex: `{"Event": OnJoinLeave, "Log type": "<Join/Leave>", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}}`
+- Ex: `{"Event": "OnJoinLeave", "Log type": "<Join/Leave>", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}}`
 
 **Block Changes**
 Socket Type: `BlockUpdate`
+- Ex: `{"Event": "BlockUpdate", "Block": "<Block Name>", "Update":"<Place/Break/Upadate>"}`
 
-- Ex: `{"Event": BlockUpdate, "Block": "<Block Name>": }`
+**Player Position Update**
+Socket Type: `PlayerMove`
+- Ex: `{"Event": "PlayerMove", "Player":"<Player Name>","Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
+
+**Entity Position Update**
+Socket Type: `EntityMove`
+- Ex: `{"Event": "PlayerMove", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"},"Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
+
+**Right Click while Holding Item**
+Socket Type: `ItemUse`
+- Ex: `{"Event": "ItemUse", "Player": "<Player Name", "Item": "<namespace>:<item>"}`
+
+**Player Learns Recipe**
+Socket Type: `RecipeGain`
+- Ex: `{"Event": "RecipeGain", "Player": "<Player Name>", "Recipe": "<namespace>:<item>"}`
+
+**Player Gains an Achievement**
+Socket Type: `AchievementGain`
+- Ex: `{"Event": "RecipeGain", "Player": "<Player Name>", "Achievement": "<path>/<achievement>"}`
