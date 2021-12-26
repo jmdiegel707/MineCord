@@ -1,7 +1,7 @@
 ## MineCord for Spigot
 
 MineCord is a plugin that integrates data directly from your Minecraft server to a [specified channel](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md#channel) in your Discord server.  
-It also has more advanced functionality for use with [WebSockets](https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is), [confugurable in `config.yml` of the plugin's folder](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md#channel).
+It also has more advanced functionality for use with [WebSockets](https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is), [configurable in `config.yml` of the plugin's folder](https://github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md#channel).
 
 ___
 
