@@ -58,4 +58,20 @@ Socket Type: `RecipeGain`
 
 **Player Gains an Achievement**
 Socket Type: `AchievementGain`
-- Ex: `{"Event": "RecipeGain", "Player": "<Player Name>", "Achievement": "<path>/<achievement>"}`
+- Ex: `{"Event": "AchievementGain", "Player": "<Player Name>", "Achievement": "<path>/<achievement>"}`
+
+**Player Dies of Natural Causes**
+Socket Type: `PlayerDeath`
+- Ex: `{"Event": "PlayerDeath", "Player": "<Player Name>", "Death Message": "<Death Message>"}`
+
+**Player is Killed by Another Player**
+Socket Type: `PlayerKill`
+- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": "<Player Name>", "Death Message": "<Death Message>"}`
+
+**Entity Dies**
+Socket Type: `EntityDeath`
+- Ex: `{"Event": "EntityDeath", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"}, "Death Message": "<Death Message>"}`
+
+**Player Attempts Running Command**
+Socket Type: `OnCommandRun`
+- Ex: `{"Event": "OnCommandRun", "Player": "<Player Name>", "Command": "<Command>"}`
