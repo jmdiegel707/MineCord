@@ -18,6 +18,18 @@ Bot Stuff
   - Float
   - The only role that can use all [Discord Commands](https://github.com/SleepyHead707/MineCord/blob/main/README.md) exept `/whitelist`.
 
+- PostID: 
+  - Float
+  - The ID of the channel that `PostToDiscord` and `PostToMinecraft` use.
+
+- PostToDiscord: 
+  - Boolean
+  - Any messages that are sent in the Minecraft server's chat will be sent to the channel selected in `PostID`.
+
+- PostToMinecraft: 
+  - Boolean
+  - Any messages that are sent in the selected channel (`PostID`) will be printed in the Minecraft server's chat.
+
 ___
 
 Discord Message Returns
@@ -41,6 +53,10 @@ Discord Message Returns
 - PlayerKill:
   - Boolean
   - Send an embed to the Designated Discord Channel (`Channel`) when a player is killed by another player.
+
+- OnCommand:
+  - Boolean
+  - Send an embed to the Designated Discord Channel (`Channel`) when anyone attempts a command.
 
 ___
 
@@ -105,3 +121,7 @@ ___
 - OnEntityDeath:
   - Boolean
   - Sends to the websocket when an entity dies.
+
+- OnCommandRun:
+  - Boolean
+  - Send to the websocket when anyone attempts a command.
