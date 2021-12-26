@@ -60,13 +60,9 @@ Socket Type: `RecipeGain`
 Socket Type: `AchievementGain`
 - Ex: `{"Event": "AchievementGain", "Player": "<Player Name>", "Achievement": "<path>/<achievement>"}`
 
-**Player Dies of Natural Causes**
+**Player Dies**
 Socket Type: `PlayerDeath`
-- Ex: `{"Event": "PlayerDeath", "Player": "<Player Name>", "Death Message": "<Death Message>"}`
-
-**Player is Killed by Another Player**
-Socket Type: `PlayerKill`
-- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": "<Player Name>", "Death Message": "<Death Message>"}`
+- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>"}`
 
 **Entity Dies**
 Socket Type: `EntityDeath`
