@@ -48,10 +48,6 @@ Socket Type: `PlayerMove`
 Socket Type: `EntityMove`
 - Ex: `{"Event": "PlayerMove", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"},"Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
 
-**Right Click while Holding Item**  
-Socket Type: `ItemUse`
-- Ex: `{"Event": "ItemUse", "Player": "<Player Name", "Item": "<namespace>:<item>"}`
-
 **Player Learns Recipe**  
 Socket Type: `RecipeGain`
 - Ex: `{"Event": "RecipeGain", "Player": "<Player Name>", "Recipe": "<namespace>:<item>"}`
