@@ -56,11 +56,11 @@ Discord Message Returns
 
 - PlayerDeath:
   - Boolean
-  - Send an embed to the Designated Discord Channel (`Channel`) when a player dies of natural causes.
+  - Send an embed to the Designated Discord Channel (`Channel`) when a player dies.
 
-- PlayerKill:
+- PlayerDeath:
   - Boolean
-  - Send an embed to the Designated Discord Channel (`Channel`) when a player is killed by another player.
+  - Send an embed to the Designated Discord Channel (`Channel`) when an entity dies.
 
 - OnCommand:
   - Boolean
@@ -120,11 +120,7 @@ ___
 
 - OnPlayerDeath:
   - Boolean
-  - Sends to the websocket when a player dies of natural causes.
-
-- OnPlayerKill:
-  - Boolean
-  - Sends to the websocket when a player is killed by another player.
+  - Sends to the websocket when a player dies.
 
 - OnEntityDeath:
   - Boolean
