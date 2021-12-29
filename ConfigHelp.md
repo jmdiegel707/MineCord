@@ -106,10 +106,6 @@ ___
   - Boolean
   - Sends to the websocket when any entity's position is modified.
 
-- ItemUse:
-  - Boolean
-  - Sends to the websocket when someone uses or atttempts to use an item.
-
 - RecipeGain:
   - Boolean
   - Sends to the websocket when player learns a recipe.
