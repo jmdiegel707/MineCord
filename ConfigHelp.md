@@ -6,13 +6,21 @@ ___
 
 Bot Stuff
 
+*The bot should have the following permissions to work properly*
+- View Channels (For the channels correlating to `Channel` and `PostID`)
+- Manage Webhooks
+- Send Messages
+- Embed Links
+- Read Message History (For the channels correlating to `PostID`)
+<br>
+Bot Config
 - BotToken:
   - String
   - The token for your Discord Bot-Client. Will be the client that the plugin runs through.
 
 - ##### Channel:
   - Float
-  - The ID of the channel that all messages from the plugin will be sent to.
+  - The ID of the channel that event messages from the plugin will be sent to. Not to be confused with `PsotID`.
 
 - Role:
   - Float
@@ -20,7 +28,7 @@ Bot Stuff
 
 - PostID: 
   - Float
-  - The ID of the channel that `PostToDiscord` and `PostToMinecraft` use.
+  - The ID of the channel that `PostToDiscord` and `PostToMinecraft` use. Not to be confused with `Channel`.
 
 - PostToDiscord: 
   - Boolean
@@ -60,7 +68,7 @@ Discord Message Returns
 
 ___
 
-##### Websocket Config
+#### Websocket Config
 
 - Port
   - Integer
