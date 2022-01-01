@@ -14,17 +14,9 @@ See the [Config File (`config.yml`)](https://github.com/SleepyHead707/MineCord/b
 Socket Type: `OnJoinLeave`
 - Ex: `{"Event": "OnJoinLeave", "Log type": "<Join/Leave>", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}}`
 
-**Block Changes**  
-Socket Type: `BlockUpdate`
-- Ex: `{"Event": "BlockUpdate", "Block": "<Block Name>", "Update":"<Place/Break/Upadate>"}`
-
 **Player Position Update**  
 Socket Type: `PlayerMove`
 - Ex: `{"Event": "PlayerMove", "Player":"<Player Name>","Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
-
-**Entity Position Update**  
-Socket Type: `EntityMove`
-- Ex: `{"Event": "PlayerMove", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"},"Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
 
 **Player Learns Recipe**  
 Socket Type: `RecipeGain`
@@ -40,7 +32,7 @@ Socket Type: `PlayerDeath`
 
 **Entity Dies**  
 Socket Type: `EntityDeath`
-- Ex: `{"Event": "EntityDeath", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"}, "Death Message": "<Death Message>"}`
+- Ex: `{"Event": "EntityDeath", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"}}`
 
 **Player Attempts Running Command**  
 Socket Type: `OnCommandRun`
