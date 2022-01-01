@@ -78,17 +78,9 @@ ___
   - Boolean
   - Sends to the websocket when a player joins or leaves.
 
-- BlockUpdate:
-  - Boolean
-  - Sends to the websocket when a block is placed, broken, or updated.
-
 - PlayerMove:
   - Boolean
   - Sends to the websocket when a player's position is modified.
-
-- EntityMove:
-  - Boolean
-  - Sends to the websocket when any entity's position is modified.
 
 - RecipeGain:
   - Boolean
