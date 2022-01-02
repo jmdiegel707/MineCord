@@ -16,19 +16,19 @@ Socket Type: `OnJoinLeave`
 
 **Player Position Update**  
 Socket Type: `PlayerMove`
-- Ex: `{"Event": "PlayerMove", "Player":"<Player Name>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
+- Ex: `{"Event": "PlayerMove", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Player Learns Recipe**  
 Socket Type: `RecipeGain`
-- Ex: `{"Event": "RecipeGain", "Player": "<Player Name>", "Recipe": "<namespace>:<item>"}`
+- Ex: `{"Event": "RecipeGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Recipe": "<namespace>:<item>"}`
 
 **Player Gains an Achievement**  
 Socket Type: `AchievementGain`
-- Ex: `{"Event": "AchievementGain", "Player": "<Player Name>", "Achievement": "<path>/<achievement>"}`
+- Ex: `{"Event": "AchievementGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Achievement": "<path>/<achievement>"}`
 
 **Player Dies**  
 Socket Type: `PlayerDeath`
-- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
+- Ex: `{"Event": "PlayerKill", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Entity Dies**  
 Socket Type: `EntityDeath`
@@ -36,4 +36,4 @@ Socket Type: `EntityDeath`
 
 **Player Attempts Running Command**  
 Socket Type: `OnCommandRun`
-- Ex: `{"Event": "OnCommandRun", "Player": "<Player Name>", "Command": "<Command>"}`
+- Ex: `{"Event": "OnCommandRun", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Command": "<Command>"}`
