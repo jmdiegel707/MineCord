@@ -12,11 +12,11 @@ See the [Config File (`config.yml`)](https://github.com/SleepyHead707/MineCord/b
 
 **Players Leave or Join**  
 Socket Type: `OnJoinLeave`
-- Ex: `{"Event": "OnJoinLeave", "Log type": "<Join/Leave>", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}}`
+- Ex: `{"Event": "OnJoinLeave", "Log type": "<Join/Leave>", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Player Position Update**  
 Socket Type: `PlayerMove`
-- Ex: `{"Event": "PlayerMove", "Player":"<Player Name>","Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>}, "Dimension": <Dimension Name>}`
+- Ex: `{"Event": "PlayerMove", "Player":"<Player Name>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Player Learns Recipe**  
 Socket Type: `RecipeGain`
@@ -28,11 +28,11 @@ Socket Type: `AchievementGain`
 
 **Player Dies**  
 Socket Type: `PlayerDeath`
-- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>"}`
+- Ex: `{"Event": "PlayerKill", "Player": "<Player Name>", "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Entity Dies**  
 Socket Type: `EntityDeath`
-- Ex: `{"Event": "EntityDeath", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"}}`
+- Ex: `{"Event": "EntityDeath", "Entity":{"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>"}, "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Player Attempts Running Command**  
 Socket Type: `OnCommandRun`
