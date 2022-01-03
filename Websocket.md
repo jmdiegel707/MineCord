@@ -36,4 +36,4 @@ Socket Type: `EntityDeath`
 
 **Player Attempts Running Command**  
 Socket Type: `OnCommandRun`
-- Ex: `{"Event": "OnCommandRun", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Command": "<Command>"}`
+- Ex: `{"Event": "OnCommandRun", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Command": "<Command>", "Not Successful": <T/F: Command Worked>}`
