@@ -28,7 +28,7 @@ Socket Type: `AchievementGain`
 
 **Player Dies**  
 Socket Type: `PlayerDeath`
-- Ex: `{"Event": "PlayerKill", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Killer": {"UUID": "<Entity UUID>", "Entity Type": "<Entity Type>", IF KILLER IS PLAYER "Player": "<Player Name>"}, "Death Message": "<Death Message>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
+- Ex: `{"Event": "PlayerKill", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Killer": {"Player": "<Player Name>", "UUID": "<Entity UUID>"}, "Death Message": "<Death Message>", "Position":{ "X":<X Coord>, "Y":<Y Coord> "Z":<Z Coord>, "Dimension": <Dimension Name>}}`
 
 **Entity Dies**  
 Socket Type: `EntityDeath`
