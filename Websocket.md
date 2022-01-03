@@ -20,11 +20,11 @@ Socket Type: `PlayerMove`
 
 **Player Learns Recipe**  
 Socket Type: `RecipeGain`
-- Ex: `{"Event": "RecipeGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Recipe": "<namespace>:<item>"}`
+- Ex: `{"Event": "RecipeGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Recipe": "<item>"}`
 
 **Player Gains an Achievement**  
 Socket Type: `AchievementGain`
-- Ex: `{"Event": "AchievementGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Achievement": "<path>/<achievement>"}`
+- Ex: `{"Event": "AchievementGain", "Player":{"Name":"<Player Name>","UUID":"<Player UUID>"}, "Achievement": "<achievement>"}`
 
 **Player Dies**  
 Socket Type: `PlayerDeath`
