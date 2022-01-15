@@ -8,9 +8,8 @@ Bot Stuff
 
 *The bot should have the following permissions to work properly*
 - View Channels (For the channels correlating to `Channel` and `PostID`)
-- Manage Webhooks
 - Send Messages
-- Embed Links
+- Embed
 - Read Message History (For the channels correlating to `PostID`)
 <br>
 Bot Config
