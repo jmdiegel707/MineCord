@@ -53,6 +53,10 @@ Discord Message Returns
   - Boolean
   - Send an embed to the Designated Discord Channel (`Channel`) when a player learns a new recipe.
 
+- DefaultAchieveOnly
+  - Boolean
+  - Only use the advancements from the Minecraft namespace.
+
 - PlayerDeath:
   - Boolean
   - Send an embed to the Designated Discord Channel (`Channel`) when a player dies.
@@ -88,6 +92,10 @@ ___
 - AcheivementGain:
   - Boolean
   - Sends to the websocket when a player gains an acheivement.
+
+- DoDefaultAchieveOnly
+  - Boolean
+  - Only use the advancements from the Minecraft namespace.
 
 - OnPlayerDeath:
   - Boolean
