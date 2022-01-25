@@ -37,6 +37,10 @@ Bot Config
   - Boolean
   - Any messages that are sent in the selected channel (`PostID`) will be printed in the Minecraft server's chat.
 
+- DefaultAchieveOnly
+  - Boolean
+  - Only use the advancements from the Minecraft namespace.
+
 ___
 
 Discord Message Returns
@@ -52,10 +56,6 @@ Discord Message Returns
 - PlayerRecipe:
   - Boolean
   - Send an embed to the Designated Discord Channel (`Channel`) when a player learns a new recipe.
-
-- DefaultAchieveOnly
-  - Boolean
-  - Only use the advancements from the Minecraft namespace.
 
 - PlayerDeath:
   - Boolean
@@ -92,10 +92,6 @@ ___
 - AcheivementGain:
   - Boolean
   - Sends to the websocket when a player gains an acheivement.
-
-- DoDefaultAchieveOnly
-  - Boolean
-  - Only use the advancements from the Minecraft namespace.
 
 - OnPlayerDeath:
   - Boolean
