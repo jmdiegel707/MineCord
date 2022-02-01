@@ -27,7 +27,7 @@ Bot Config
 
 - PostID: 
   - Float
-  - The ID of the channel that `PostToDiscord` and `PostToMinecraft` use. Not to be confused with `Channel`.
+  - The ID of the channel that `PostToDiscord` and `PostToMinecraft` use. Not to be confused with `Channel`. **Must be a basic guild text channel**
 
 - PostToDiscord: 
   - Boolean
