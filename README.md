@@ -10,8 +10,8 @@ MineCord uses Discord's "Bot" feature to send stuff to your Discord Server. If y
 All commands are integrated slash commands.
 
 - Announce
-  - `/announce [Message] [Use json]`
-  - Tells raw text to all online players. `Use json` is a true/false statement to say if `Message` [is raw json text format](https://minecraft.fandom.com/wiki/Raw_JSON_text_format)
+  - `/announce [Message]`
+  - Tells raw text to all online players.
 
 - Whitelist
   - `/whitelist [Minecraft Username}`
