@@ -10,6 +10,7 @@ Bot Stuff
 - View Channels (For the channels correlating to `Channel` and `PostID`)
 - Send Messages
 - Embed
+- Manage Webhooks
 - Read Message History (For the channels correlating to `PostID`)
 <br>
 Bot Config
