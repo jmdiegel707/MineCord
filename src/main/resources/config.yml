@@ -1,0 +1,66 @@
+
+# For details on each option, see our Config Help page at github.com/SleepyHead707/MineCord/blob/main/ConfigHelp.md
+
+#*#*#*#*#*#*#*#*#*#*#*#*#
+#                       #
+#       Bot Config      #
+#                       #
+#*#*#*#*#*#*#*#*#*#*#*#*#
+
+BotToken: aaaaaaaa000000000000000000000000000000000000000000000000
+
+Channel: 000000000000000000
+
+Role: 000000000000000000
+
+PostID: 000000000000000000
+
+PostToDiscord: false
+
+PostToMinecraft: false
+
+DefaultAchieveOnly: true
+
+
+#*#*#*#*#*#*#*#*#*#*#*#*#
+#                       #
+#     Message Config    #
+#                       #
+#*#*#*#*#*#*#*#*#*#*#*#*#
+
+PlayerJoinLeave: true
+
+PlayerAchieve: true
+
+PlayerRecipe: true
+
+PlayerDeath: true
+
+EntityDeath: false
+
+OnCommand: false
+
+
+#*#*#*#*#*#*#*#*#*#*#*#*#
+#                       #
+#    WebSocket Config   #
+#                       #
+#*#*#*#*#*#*#*#*#*#*#*#*#
+
+# Websocket Port
+Port: 0000
+
+# Events
+OnJoinLeave: true
+
+PlayerMove: false
+
+RecipeGain: false
+
+AcheivementGain: true
+
+OnPlayerDeath: true
+
+OnEntityDeath: false
+
+OnCommandRun: true
